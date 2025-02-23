@@ -16,7 +16,7 @@ public class ColorServiceImpl implements ColorService {
     @Override
     public Color create(Color color) {
         if(color.getName().isEmpty()) {
-            throw new EmptyFieldException("Поле name не может быть пустым");
+            throw new EmptyFieldException("Поле nme не может быть пустым");
         }
         return colorRepository.save(color);
     }
