@@ -1,4 +1,4 @@
 package com.example.auto_shop.service.impl;
 
-public class ColorServiceImpl {
+public class ModelServiceImpl {
 }
